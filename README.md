@@ -1,7 +1,13 @@
 # Accented-English-Speech-Recognition-and-Transcription
 
 ## About The Project
-The aim of this project is to evaluate the performance of two Automatic Speech Recognition Models: Whisper and Speech2Text, on various accents, and then fine-tune these models to see if that improves their performance on selected accents. This project was carried out by Tapiwa Mwila, Sharadha Kasiviswanathan, and Uwaila Ekhator.
+The aim of this project is to evaluate the performance of two Automatic Speech Recognition Models: Whisper and Speech2Text, on various accents, and then fine-tune these models to see if that improves their performance on selected accents.
+
+## Contributors
+- Tapiwa Mwila
+- Sharadha Kasiviswanathan
+- Uwaila Ekhator
+
 
 ## Built With
 - Hugging Face
@@ -36,6 +42,9 @@ The aim of this project is to evaluate the performance of two Automatic Speech R
 - Finetuning Whisper on Indian Accent.ipynb: This notebook further illustrates the Whisper finetuning process on the Indian accents from the Common Voice dataset and compares the performance of our Finetuned model against the original Whisper model.
 
 A step-by-step finetuning guide is available here [link](https://huggingface.co/blog/fine-tune-whisper#fine-tune-whisper-for-multilingual-asr-with-%EF%BF%BD%EF%BF%BD-transformers).
+
+## Acknowledgements
+We would like to acknowledge George Mason University's Speech Accent Archive (Link) from where we obtained our initial dataset and Mozilla Common Voice where we obtained our Indian and Philippines Accents fine-tuning datasets. Additionally, we extend our thanks to all the contributors, libraries, datasets, and tools that were instrumental in the success of this project.
 
 
 
